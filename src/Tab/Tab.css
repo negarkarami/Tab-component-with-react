@@ -1,0 +1,35 @@
+.box {
+    width: 700px;
+    margin: 30px auto;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.tab {
+    background-color: #f2f2f2;
+    padding: 20px 15px;
+    border-radius: 100%;
+    text-align: center;
+    border: 2px solid #EEF7FE;
+    cursor: pointer;
+}
+
+.active-tab {
+    background-color: #EEF7FE;
+    border: 2px solid #007bff;
+}
+
+
+.content {
+    display: none;
+}
+
+.active-content {
+    display: block;
+    transition: all 1s ease-in-out;
+}
+
